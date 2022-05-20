@@ -44,6 +44,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_MAINTAINER="Headache01"
     export FOX_R11=1
     export TARGET_DEVICE_ALT="bolt, GM8_sprout, arrow_GM8_sprout"
+    OF_USE_SYSTEM_FINGERPRINT
 
 
 	# let's see what are our build VARs
